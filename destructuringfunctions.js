@@ -9,7 +9,7 @@ function getStudents({name,level, faculty}){
     return `Name:${name}level:${level},faculty:${faculty}`
 }
 getStudents=students;
-console.log(getStudents);
+// console.log(getStudents);
 
 const lecturers ={
     name:'FC_Chilaka',
@@ -23,3 +23,5 @@ function getlecturers({name,level,department}){
 }
 getlecturers =lecturers
 // console.log(getlecturers);
+const main ={...lecturers,gender:"male"}
+console.log(main);
