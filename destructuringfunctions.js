@@ -11,6 +11,9 @@ function getStudents({name,level, faculty}){
 getStudents=students;
 // console.log(getStudents);
 
+const admitted ={...students, age:22}
+console.log(admitted);
+
 const lecturers ={
     name:'FC_Chilaka',
     level: 'Prof',
@@ -24,4 +27,4 @@ function getlecturers({name,level,department}){
 getlecturers =lecturers
 // console.log(getlecturers);
 const main ={...lecturers,gender:"male"}
-console.log(main);
+// console.log(main);
